@@ -38,10 +38,10 @@
 
             label = "Num";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3  &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &trans
-&trans     &trans  &trans  &trans  &trans        &trans          &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp BACKSPACE
-&kp LSHFT  &trans  &trans  &trans  &trans        &kp LEFT_ALT    &trans    &trans    &trans    &trans     &trans  &trans
-                           &trans  &kp LEFT_ALT  &kp SPACE       &kp RET   &trans    &kp RALT
+&kp TAB    &kp N1      &kp N2  &kp N3  &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &trans
+&kp LCTRL  &kp DELETE  &trans  &trans  &trans        &trans          &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp BACKSPACE
+&kp LSHFT  &trans      &trans  &trans  &trans        &kp LEFT_ALT    &trans    &trans    &trans    &trans     &trans  &trans
+                               &trans  &kp LEFT_ALT  &kp SPACE       &kp RET   &trans    &kp RALT
             >;
         };
 
