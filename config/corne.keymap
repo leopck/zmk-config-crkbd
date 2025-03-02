@@ -55,7 +55,7 @@
             label = "Sym";
             bindings = <
 &kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans     &trans     &trans        &kp LBKT         &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE   &kp BACKSPACE
+&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp SEMICOLON      &kp SINGLE_QUOTE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp COMMA     &kp PERIOD       &kp SLASH          &trans
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &trans
             >;
