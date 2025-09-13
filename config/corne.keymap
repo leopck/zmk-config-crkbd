@@ -77,7 +77,7 @@
 &kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6       &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans  &trans   &trans   &kp BSPC
 &trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans  &trans   &trans   &trans
-                        &kp LALT  &trans  &kp SPACE    &kp ENTER  &to 5   &trans
+                        &kp LALT  &trans  &kp SPACE    &kp ENTER  &tog 5  &trans
             >;
 
             label = "Fn";
@@ -86,10 +86,10 @@
         Gaming {
             label = "Game";
             bindings = <
-&kp TAB    &kp Q     &kp UP_ARROW  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp ESCAPE
-&kp LCTRL  &kp LEFT  &kp DOWN      &kp RIGHT     &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp BACKSPACE
-&kp LSHFT  &kp Z     &kp X         &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &to 0
-                                   &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_WIN
+&kp TAB    &kp Q     &kp UP_ARROW  &kp E         &kp R  &kp T        &kp Y    &kp U   &kp I         &kp O    &kp P     &kp ESCAPE
+&kp LCTRL  &kp LEFT  &kp DOWN      &kp RIGHT     &kp F  &kp G        &kp H    &kp J   &kp K         &kp L    &kp SEMI  &kp BACKSPACE
+&kp LSHFT  &kp Z     &kp X         &kp C         &kp V  &kp B        &kp N    &kp M   &kp COMMA     &kp DOT  &kp FSLH  &to 0
+                                   &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &tog 5  &kp LEFT_WIN
             >;
         };
     };
